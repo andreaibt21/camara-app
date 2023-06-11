@@ -1,4 +1,4 @@
-# Relevamiento visual (testeado en más de un dispositivo):
+# Relevamiento visual:
 
 - Ingresar un usuario. (registrado en BD).
 - La pantalla principal permitirá seleccionar un BOTÓN de dos posibles (Cosas LINDAS del edificio, Cosas
