@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "Galeria AIBTO",
+    "slug": "Galeria AIBTO",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/galeria.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splashG.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#3b4552"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#3b4552"
+      },
+      "package": "com.essee.Camara"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "expo": {
+      "plugins": [
+        [
+          "expo-image-picker",
+          {
+            "photosPermission": "The app accesses your photos to let you share them with your friends."
+          }
+        ]
+      ]
+    }
+  }
+}
